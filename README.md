@@ -11,6 +11,7 @@ The tiles are described as:
 
 The game is over when you step on a hole tile (h) or reach the goal tile (g).
 Q-Learning is a basic form of Reinforcement Learning which uses Q-values (also called action values) to iteratively improve the behavior of the learning agent.
+
 New Q(s,a)= (1 - α) Q(s,a) + α [ reward + γ.maxQ(s',a')]
 
 - s: Current State of the agent.
